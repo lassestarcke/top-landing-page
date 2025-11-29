@@ -69,7 +69,7 @@ ul {
 }
 
 .hero-secondary-text, .nav-links a {
-    color: #cdcfd3;
+    color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
 }
@@ -123,4 +123,33 @@ ul {
     width: 160px;
     border: 4px solid #3882f6;
     border-radius: 18px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 700;
+}
+
+.quote-container {
+    margin: 8% 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container :nth-child(2) {
+    align-self: flex-end;
+    margin-right: 50px;
 }
