@@ -86,3 +86,41 @@ ul {
     font-size: 16px;
     border-radius: 8px;
 }
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin-bottom: 96px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 160px;    
+}
+
+.info .text {
+    color: #1f2937;
+    font-size: 18px;
+    margin: 6px 0 12px 0;
+    text-align: center;  
+}
+
+.square-box {
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 18px;
+}
