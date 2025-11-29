@@ -1,3 +1,88 @@
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: o;
+    padding: 0;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 14%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.logo, .hero-main-text, .hero-button {
+    color: #f9faf8
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+.hero-container {
+    max-width: 44%;
+}
+
+.hero-image {
+    background-color: #bcbcbc;
+    min-width: 50%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-secondary-text, .nav-links a {
+    color: #cdcfd3;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.hero p {
+    margin: 6px 0 12px 0;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border: none;
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
 }
