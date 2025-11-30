@@ -155,6 +155,43 @@ ul {
 }
 
 .cta-container {
-    display: flex;
     background-color: #3882f6;
+    margin: 8% 14%;
+    padding: 4% 7%;
+    border-radius: 8px;
+}
+
+.cta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.cta-text {
+    color: #f9faf8;
+}
+
+.cta-text-main {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-text-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.cta-button {
+    font-size: 18px;
+    font-weight: 700;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 8px;
+    background-color: #3882f6;
+    padding: 8px 36px;
+    display: flex;
+    flex: 0 0 150px;
+    justify-content: center;
+    align-items: center;
 }
