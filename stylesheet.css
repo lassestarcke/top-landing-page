@@ -153,3 +153,8 @@ ul {
     align-self: flex-end;
     margin-right: 50px;
 }
+
+.cta-container {
+    display: flex;
+    background-color: #3882f6;
+}
