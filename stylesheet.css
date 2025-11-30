@@ -177,7 +177,7 @@ ul {
     font-weight: 700;
 }
 
-.cta-text-secondary {
+.cta-text-secondary, .footer-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -194,4 +194,15 @@ ul {
     flex: 0 0 150px;
     justify-content: center;
     align-items: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    padding: 3% 0;
 }
